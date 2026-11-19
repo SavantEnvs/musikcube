@@ -1,0 +1,1 @@
+{"name": "AppendPlaylistQuery", "options": {"playlistId": 1, "offset": 0, "tracks": [{"id": 1, "uri": "a.mp3", "metadata": {}}]}}

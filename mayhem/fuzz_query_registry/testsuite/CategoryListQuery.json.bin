@@ -1,0 +1,1 @@
+{"name": "CategoryListQuery", "options": {"filter": "rock", "trackField": "genre", "outputType": 0, "matchType": 1, "regularPredicateList": [["artist", 5], ["genre", 2]], "extendedPredicateList": [["album", 3]]}}

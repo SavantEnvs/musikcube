@@ -1,0 +1,2 @@
+
+{"name": "SavePlaylistQuery", "options": {"op": 1, "playlistName": "p", "playlistId": 1, "tracks": [{"id": 1, "uri": "a.mp3", "metadata": {}}]}}

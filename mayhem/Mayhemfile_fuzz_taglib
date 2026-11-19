@@ -1,0 +1,10 @@
+project: savantenvs/musikcube
+target: fuzz_taglib
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_taglib/testsuite
+
+cmds:
+  - cmd: /mayhem/build/mayhem-out/fuzz_taglib
+    libfuzzer: true
+    timeout: 5

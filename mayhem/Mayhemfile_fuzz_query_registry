@@ -1,0 +1,10 @@
+project: savantenvs/musikcube
+target: fuzz_query_registry
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_query_registry/testsuite
+
+cmds:
+  - cmd: /mayhem/build/mayhem-out/fuzz_query_registry
+    libfuzzer: true
+    timeout: 5

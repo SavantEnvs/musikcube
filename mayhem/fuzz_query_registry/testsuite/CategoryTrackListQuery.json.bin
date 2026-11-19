@@ -1,0 +1,1 @@
+{"name": "CategoryTrackListQuery", "options": {"filter": "x", "sortType": 1, "limit": 10, "offset": 0, "regularPredicateList": [["artist", 5], ["genre", 2]], "extendedPredicateList": [["album", 3]]}}
